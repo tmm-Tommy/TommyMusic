@@ -1,0 +1,71 @@
+import Vue from 'vue'
+import {
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Message,
+  Container,
+  Header,
+  Aside,
+  Main,
+  Image,
+  Tabs,
+  TabPane,
+  Carousel,
+  CarouselItem,
+  Timeline,
+  TimelineItem,
+  Card,
+  Dialog,
+  Divider,
+  Tag,
+  Select,
+  Option,
+  Loading,
+  PageHeader,
+  Drawer,
+  Menu,
+  MenuItem,
+  Table,
+  TableColumn,
+  DatePicker,
+  Alert,
+  Badge,
+  Autocomplete
+
+} from 'element-ui'
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Image)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Carousel)
+Vue.use(CarouselItem)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
+Vue.use(Card)
+Vue.use(Dialog)
+Vue.use(Divider)
+Vue.use(Tag)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Loading)
+Vue.use(PageHeader)
+Vue.use(Drawer)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(DatePicker)
+Vue.use(Alert)
+Vue.use(Badge)
+Vue.use(Autocomplete)
+// 全局挂载el的弹窗
+Vue.prototype.$message = Message;
